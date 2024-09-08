@@ -37,5 +37,5 @@ test('test getAttacks', () => {
         ]	
       };
     const attacks = getAttacks(character);
-    expect(expectedAttacks).toEqual(attacks);
+    expect(attacks).toEqual(expectedAttacks);
 });
